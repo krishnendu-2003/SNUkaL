@@ -37,7 +37,9 @@ b. The selling price of a used car.
       <div className="ccard">
   <div className="content-row">
     <p>
-      Dataset: housing_price_dataset.csv
+      Dataset: housing_price_dataset.csv<br></br>
+      Accuracy of the model using R2<br></br>
+      Actual vs Predicted value
     </p>
     <button><a href={ass2} download>
   Save
@@ -47,7 +49,10 @@ b. The selling price of a used car.
       <div className="ccard">
   <div className="content-row">
     <p>
-   Dataset: salary_dataset.csv
+   Dataset: salary_dataset.csv<br></br>
+   Use the hyper-param tning for the best result<br></br>
+   Plot the hypothesis fn and data points<br></br>
+   Compute the relevant performance matrics, R2 value
     </p>
     <button><a href={ass3} download>Save</a></button>
   </div>
@@ -55,7 +60,9 @@ b. The selling price of a used car.
       <div className="ccard">
   <div className="content-row">
     <p>
-    Dataset: china_gdp.csv
+    Dataset: china_gdp.csv<br></br>
+    GPD 1960 to 2014<br></br>Compute the relevant performance matrics, R2 value<br></br> Actual vs Predicted
+
     </p>
     <button><a href={ass4} download>Save</a></button>
   </div>
@@ -63,7 +70,10 @@ b. The selling price of a used car.
 <div className="ccard">
   <div className="content-row">
     <p>
-    Dataset: samples_cancer.csv
+    Dataset: samples_cancer.csv<br></br>
+    Benign tumor vs Malignant tumor<br></br>
+    G- Confusion matrics & E- quality of the model<br></br>
+    Precision Recall Accuracy F1 Score. P-ROC AUC
     </p>
     <button><a href={ass5} download>Save</a></button>
   </div>
