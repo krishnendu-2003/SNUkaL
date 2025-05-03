@@ -1,0 +1,83 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+.ccard {
+  padding: 16px;
+}
+
+.content-row {
+  display: flex;
+  align-items: flex-start; /* aligns top of p and button */
+  gap: 20px; /* space between p and button */
+}
+
+.content-row p {
+  text-align: left;
+  margin: 0; /* remove default margin */
+  flex: 1; /* allows paragraph to take remaining space */
+}
+.mainComponent {
+  display: flex;
+}
+
+  /* .block {
+    border-radius: 12px;                        
+    padding: 20px;                              
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);  
+  } */
+
+  .ccard {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    border-radius: 12px;                        
+    padding: 20px;                              
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);  
+  }
+  
+  .content-row:hover .ccard,
+  .ccard:hover {
+    opacity: 1;
+  }
+ 
+  
